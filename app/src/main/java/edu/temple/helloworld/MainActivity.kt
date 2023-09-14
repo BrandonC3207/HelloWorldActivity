@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         nameEditText = findViewById(R.id.nameEditText)
         
         // Respond to button click event per specifications
-        findViewById<View>(R.id.clickMeButton).setOnClickListener{displayTextView.text = "Hello " + nameEditText.text}
+        findViewById<View>(R.id.clickMeButton).setOnClickListener{displayTextView.text = "Hello, " + nameEditText.text}
 
     }
 }
