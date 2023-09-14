@@ -19,7 +19,8 @@ class MainActivity : AppCompatActivity() {
 
         // Initialize with views defined in Layout - the first one is done for you
         displayTextView = findViewById(R.id.displayTextView)
-
+        clickMeButton = findViewById(R.id.clickMeButton)
+        nameEditText = findViewById(R.id.nameEditText)
         
         // Respond to button click event per specifications
 
